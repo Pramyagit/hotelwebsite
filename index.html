@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/hotel.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header class="header-start">
+        <navbar id="nav1">
+            <ul class="social">
+                <li class="social-icon"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li class="social-icon"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="social-icon"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li class="social-icon"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                <li class="social-icon bookFor" ><a href="#bookForm">BOOKNOW</a>
+                    <ul class="sub-List">
+                        <li class="sub-sublist"><a href="">RESIDENT</a></li>
+                        <li class="sub-sublist"><a href="">NON-RESIDENT</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </navbar>
+          <nav id="navibar" class="nav">
+            <div class="hotel-logo">
+                <a href="/image/hotellogo1.png"><img src="/image/hotellogo1.png" class="logo" alt="logo"></a>
+               </div>
+               <div class="menuTab">
+        <ul class="menu">
+            <li class="mainList"><a href="#home">HOME</a></li>
+            <li class="mainList main-sub"><a href="#hotel">HOTELS</a>
+            <ul class="subList">
+                <li class="submenu">
+                <a href="">5Star One</a></li>
+            <li class="submenu">
+                <a href="">5Star Two</a></li>
+            </ul></li>
+            <li class="mainList"><a href="#room">ROOMs</a></li>
+            <li class="mainList"><a href="#resturt">RESTAURANT</a></li>
+            <li class="mainList"><a href="#price">SPECIAL OFFERS</a></li>
+            <li class="mainList"><a href="#experience">EXPERIENCES</a></li>
+            <li class="mainList"><a href="#gallery">GALLERY</a></li>
+            <li class="mainList"><a href="#contact">CONTACT US</a></li>
+        </ul>
+        <i class="fa-solid fa-xmark close"></i>
+    </div>
+    <div class="bar-close">
+        <div class="menu-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+          </nav>
+    </header>
+    <!-- main-start-->
+    <main class="main-start">
+        <section id="home">
+        <div class="main-container">
+         <div class="hotelDemo">
+            <video id="videos"autoplay muted loop>
+            <source src="/videos/Hotel - 1303.mp4" class="videoSrc" type="video/mp4">
+        </video>
+    </div>
+        <form id="bookForm" action="" method="" >
+            <div class="booking">
+        <p><label class="">Nationality</label>
+        <select id="select_hotel">
+            <option selected="selected" >please select nationality</option>
+                <option value="1">Indian</option>
+            <option value="2">Non-Indian</option>
+        </select>
+        </p>
+        <p>
+            <label>CheckIn</label>
+            <input id="check-in" name="check-in" type="date" placeholder="DD-MM-YYYY" class="hasDatepicker">
+        </p>
+        <p>
+    <label>Check Out</label><input id="check-out" name="check-out"  type="date" placeholder="DD-MM-YYYY" class="hasDatepicker"></p>
+<p><a href="" class="bookNow">BookNow</a></p>  
+ </div>  
+</form>
+</div>
+</section>
+<section id="hotel">
+<div class="container-section1">
+    <div class="left-container" id="resturt">
+        <div class="image-hotel"><img src="/image/hotel-front.jpg"></div>
+    <div class="room-count" id="room">
+        <p class="Rcount">
+            <div class="prefix">+
+                <span class="counts" data-target="30">0</span>
+            </div>
+        </p>
+            <span class="tit">Rooms</span>
+    </div>
+    </div>
+
+    <div class="right-container">
+    <div class="head-title">
+        <h1 >5STAR-Hotel.-The Best Luxury Boutique Hotel in India</h1>
+       <p  id="history1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis aperiam ipsa itaque, animi harum architecto, debitis earum numquam repellat rem exercitationem minima sunt maiores, error illo aut porro sed eius!</p>
+    <p id="history2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, quidem. Incidunt corporis dolorum nam minus perspiciatis possimus vitae assumenda distinctio obcaecati quaerat temporibus doloremque, quasi harum dolor aperiam ullam quisquam voluptatibus. Optio fugit odio ex qui corporis, quo maiores rerum, iste error dolor reprehenderit saepe voluptate ipsa quam beatae ullam repellendus culpa aperiam? Incidunt minima facilis animi, harum suscipit sunt accusantium quo ea deserunt.</p>
+    </div>
+
+    </div>
+</div>
+</section>
+<div class="container-info">
+    <div class="level 1">
+        <span>01</span>
+        <h3 class="title">Reserve a room</h3>
+    <p class="info">Get in touch with us and our reservations team would guide you through a quick and hassle free booking process, ensuring attention to detail and the right selection for your accommodation needs.</p></div>
+    <div class="level 2">
+        <span>02</span>
+        <h3 class="title">Reach the Hotel</h3>
+        <p class="info">As 5Star-Hotel is located conveniently at the heart of the city, reaching the hotel would require only a quick commute from the airport that we would be happy to arrange for you.</p>
+    </div>
+    <div class="level 3">
+        <span>03</span>
+        <h3 class="title">Enjoy the Stay</h3>
+        <p class="info">Select from three modes of accommodation and Indulge in the epitome of luxury, comfort and culinary goodness when you stay with us at 5Star-Hotel in india.</p>
+    </div>
+</div>
+<div class="container-promo">
+    <h1 class="head">Explore Promotions and Deals</h1>
+    <p class="promo-info">5star-Hotel ,a myriad of promotions and deals are available to suite all tastes and occasions. Specially designed with the discerning traveler in mind, there is always something for everyone</p>
+<div class="slider">
+    <ul class="image-full">
+    <li class="image-slide">
+        <img class="imgs"src="/image/dinner-g726fe5fad_1280.jpg" alt="dinner">
+    <div class=food-detail><p class="slide-info">dinner- very spice and cruspy</p>
+</div>    
+</li> 
+
+    <li class="image-slide">
+        <img class="imgs"src="/image/breakfast-gf44dd4d33_1280.jpg" alt="dinner">
+    <div class=food-detail><p class="slide-info">dinner- very spice and cruspy.</p>
+</div>    
+</li>  
+    <li class="image-slide">
+        <img class="imgs"src="/image/travel-g752c61a64_1280.jpg" alt="dinner">
+   <div class=food-detail> <p class="slide-info">dinner- very spice and cruspy</p></div>
+    </li>  
+
+   <li class="image-slide">
+        <img class="imgs"src="/image/soup-pot-gc2e318aa7_1280.jpg" alt="dinner">
+   <div class=food-detail> <p class="slide-info">dinner- very spice and cruspy</p></div>
+    </li>
+    <li class="image-slide">
+        <img class="imgs"src="/image/table-ga5993f952_1280.jpg" alt="dinner">
+   <div class=food-detail> <p class="slide-info">dinner- very spice and cruspy</p></div>
+    </li>
+</ul>
+    <div class="slide-btn">
+    <i class="fa-sharp fa-solid fa-angle-left" id="left"></i>
+    <i class="fa-sharp fa-solid fa-angle-right"id="right"></i>
+</div>
+
+<div class="dots">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+            </div>
+      
+        </div>
+</div>
+<section id="price">
+<div class="containerRoom">
+    <div class="roomsPrice">OUR ROOM PRICES</div>
+    <h2 class="tit-price">The Best Prices</h2>
+<div class="part-price">
+    <div class="deluxe">
+        <h2 class="delu-head">Deluxe Room</h2><h4 class="d-price">$ <span>82</span>/ Double (B&B)</h4>
+        <p class="delu-info">Our Deluxe rooms have everything you need at your disposal. A 24-hour reception service ensures that you are well cared for throughout the day, while laundry services are provided to ease your workload even further. A thoughtfully laid out, cozy floor space of 220 square feet, boasts practicality and comfort. You will find complementary Wi-Fi Internet,</p>
+        <button class="deluxeBtn">BookNow</button></div>
+    <div class="superior">
+        <h2 class="super-head">Deluxe Room</h2><h4 class="sp-price">$ <span>92</span>/ Double (B&B)</h4>
+        <p class="super-info">Our Superior rooms have everything the Deluxe rooms offer. But with one exception: the balcony. Here you can sit back, relax and enjoy the expansive view that beholds in front of you while you sip on your favorite beverage and unwind from the hustle and bustle of Colombo. With a floor space of 240 square feet, each room in this category boasts a picturesque view of the cityscape through a large glass wall and access to the private balcony.</p>
+        <button class="superiorBtn">BookNow</button></div>
+    <div class="suite">
+        <h2 class="suite-head">Deluxe Room</h2><h4 class="su-price">$ <span>112</span>/ Double (B&B)</h4>
+        <p class="suite-info">Our Suites have been artfully arranged so that your workspace and recreational space seem like two distinct entities bound together only by the tapestry of space and elegance. Our spacious suites span a yawning space of 440 square feet, with a cozy workspace and spacious bathroom and bedroom. For much desired TLC, the suite bathroom includes a modern bathtub to relax and unwind in</p>
+        <button class="suiteBtn">BookNow</button></div>
+</div>
+</div>
+</section>
+<section id="experience">
+<div class="Experience">
+    <h2 class="exp-tit">Experiences</h2>
+<p class="exp-story">Experience a collection of unique experiences in india country.Here we are offered by  in each of our destination.The experiences in offer are hand-picked  excursions to amplify your india Tropical tour travel escapade </p>
+<div class="tour">
+    <div class="tour-slide S-active">
+        <img class="imgs1"src="/image/india-1514744_1280.jpg">
+        <h4 class="tour-head">Heading</h4>
+        <p class="place">India</p>
+    </div>
+    <div class="tour-slide">
+        <img class="imgs1"src="/image/hampi-4109490_1280.jpg">
+        <h4 class="tour-head">Heading</h4>
+        <p class="place">India</p>
+    </div>
+    <div class="tour-slide">
+        <img class="imgs1"src="/image/religion-2308867_1280.jpg">
+        <h4 class="tour-head">Heading</h4>
+        <p class="place">India</p>
+    </div>
+    <div class="tour-slide">
+        <img class="imgs1"src="/image/taj-mahal-866692_1280.jpg">
+        <h4 class="tour-head">Heading</h4>
+        <p class="place">India</p>
+    </div>
+    <div class="tour-slide">
+        <img class="imgs1"src="/image/temple-140688__480.jpg">
+        <h4 class="tour-head">Heading</h4>
+        <p class="place">India</p>
+    </div>
+    <div class="dots tour-dot">
+       
+    </div>
+    
+</div>
+
+<div class="arrowBtn">
+    <i class="fa-sharp fa-solid fa-angle-left" id="arrow-left"></i>
+    <i class="fa-sharp fa-solid fa-angle-right"id="arrow-right"></i>
+</div>
+</div>
+</section>
+<section id="gallery">
+<div class="gallery-container">
+    <h2 class="g-head">Gallery</h2>
+    <div class="gallery">
+    <img  class="images" src="/image/hotel-4350206__480.jpg" alt="">
+    <img  class="images" src="/image/hotel-601327__480.jpg" alt="">
+    <img  class="images" src="/image/pool-2105912__480.jpg" alt="">
+    <img  class="images" src="/image/hotel-1233020__480.jpg" alt="">
+    <img  class="images" src="/image/hotel-room-1261900__480.jpg" alt="">
+    <img  class="images" src="/image/hotel-front.jpg" alt="">
+    <img  class="images" src="/image/round-window-4272049_1280.jpg" alt="">
+    <img  class="images" src="/image/walkway-347319__480.jpg" alt="">
+    <img  class="images" src="/image/resort-4369984__480.jpg" alt="" >
+    <img  class="images" src="/image/dining-410832__480.jpg" alt="">
+    <img  class="images" src="/image/conference-room-1146244__480.jpg" alt="">
+    <img  class="images" src="/image/table-ga5993f952_1280.jpg" alt="">
+</div>
+</div> 
+</section>
+    </main>
+    <!-- main-end -->
+    <!-- footer-start -->
+    <footer class="start-footer">
+<div class="hotel-Route-detail">
+    <div class="route">
+        <div class="mapouter">
+        <div class="gmap_canvas">
+            <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=mysore palace&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+        </div>
+    </div>
+    </div>
+    <div class="contact" id="contact">
+        <ion-icon class="icon"name="call-outline"></ion-icon>
+        <h3 class="contactus">Contact US</h3>
+        <span class="receive">reservation:</span>
+        <p>+91 1234567890</p>
+        <span class="receive">Inquiry</span>
+        <p>+91 9876543210</p>
+    </div>
+    <div class="dropLine">
+        <ion-icon class="icon"name="mail-outline"></ion-icon>
+        <h3 class="drop">Email Contact</h3>
+        <p class="receive">Information</p>
+<span class="emai">info@india.com</span>
+        <p class="receive">Reception</p>
+        <span class="emai">reservation@india.com</span>
+    </div>
+</div>
+          <div class="container-footer-box">
+          <div class="details"><h4>Phone Support</h4><h6>24 HOURS A DAY</h6>
+        <P class="number">+91 123-456-7890</P>
+        <h5>Chat Support</h5>
+        <i class="fa-brands fa-whatsapp wtsapp"></i>
+        </div>
+
+    <div class="connect-us"><h4>Connect With Us</h4>
+        <h6>SOCIAL MEDIA CHANNELS</h6>
+        <ul class="social-footer">
+            <li class="social-icon-footer"><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="social-icon-footer"><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-icon-footer"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="social-icon-footer"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+    <div class="new-member"><h4>NewSletter</h4>
+        <h6>SIGN UP FOR SPECIAL OFFER</h6>
+        <button class="subscribe">SUBSCRIBE</button>
+    </div>
+ </div>
+    </footer>
+    <!-- footer-end -->
+
+
+    <script src="/hotel.js">
+
+    </script>
+</body>
+</html>
